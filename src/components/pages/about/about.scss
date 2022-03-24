@@ -1,0 +1,89 @@
+@import "../../../global.scss";
+.a {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.a-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+.a-right {
+  flex: 1;
+}
+.a-card.bg {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  background-color: lightslategrey;
+}
+.a-card {
+  width: 50%;
+  height: 70vh;
+  border-radius: 30px;
+  position: absolute;
+  overflow: hidden;
+}
+.a-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.a-Compstock-img {
+  width: 20%;
+  height: 20%;
+}
+.a-title {
+  font-weight: 400;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.a-sub {
+  margin: 20px 0px;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.a-desc {
+  font-weight: 300;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.a-Compstock {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.a-Compstock-texts {
+  width: 70%;
+  padding-right: 20%;
+}
+.a-Compstock-title {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .a-left {
+    width: 100%;
+  }
+  .a-card {
+    height: 30vh;
+  }
+  .a-card.bg,
+  .a-Compstock {
+    display: none;
+  }
+  .a-right {
+    padding: 20px;
+  }
+}

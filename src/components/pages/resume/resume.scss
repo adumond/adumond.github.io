@@ -1,0 +1,17 @@
+#resumePDF {
+  margin: auto;
+  justify-content: center;
+  width: 50%;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 480px) {
+  #resumePDF {
+    width: auto;
+  }
+
+  #pdf {
+    width: 300px;
+    height: 500px;
+  }
+}
