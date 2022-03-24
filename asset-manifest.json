@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.df171f9e.css",
-    "main.js": "/static/js/main.2d8a69b2.js",
-    "static/media/myself.webp": "/static/media/myself.bc292124edbb5e524637.webp",
-    "static/media/Duffy-and-I.webp": "/static/media/Duffy-and-I.d6371ee46936efbe969c.webp",
-    "static/media/compstock.png": "/static/media/compstock.b3171a5f1dd98cca4456.png",
-    "static/media/github.png": "/static/media/github.82c34cdbabb4f2be17ef.png",
-    "index.html": "/index.html",
-    "main.df171f9e.css.map": "/static/css/main.df171f9e.css.map",
-    "main.2d8a69b2.js.map": "/static/js/main.2d8a69b2.js.map"
+    "main.css": "/andrew-dumond.com/static/css/main.df171f9e.css",
+    "main.js": "/andrew-dumond.com/static/js/main.21ee7dda.js",
+    "static/media/myself.webp": "/andrew-dumond.com/static/media/myself.bc292124edbb5e524637.webp",
+    "static/media/Duffy-and-I.webp": "/andrew-dumond.com/static/media/Duffy-and-I.d6371ee46936efbe969c.webp",
+    "static/media/compstock.png": "/andrew-dumond.com/static/media/compstock.b3171a5f1dd98cca4456.png",
+    "static/media/github.png": "/andrew-dumond.com/static/media/github.82c34cdbabb4f2be17ef.png",
+    "index.html": "/andrew-dumond.com/index.html",
+    "main.df171f9e.css.map": "/andrew-dumond.com/static/css/main.df171f9e.css.map",
+    "main.21ee7dda.js.map": "/andrew-dumond.com/static/js/main.21ee7dda.js.map"
   },
   "entrypoints": [
     "static/css/main.df171f9e.css",
-    "static/js/main.2d8a69b2.js"
+    "static/js/main.21ee7dda.js"
   ]
 }
