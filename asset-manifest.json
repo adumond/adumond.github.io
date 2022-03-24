@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.df171f9e.css",
-    "main.js": "/static/js/main.2d8a69b2.js",
-    "static/media/myself.webp": "/static/media/myself.bc292124edbb5e524637.webp",
-    "static/media/Duffy-and-I.webp": "/static/media/Duffy-and-I.d6371ee46936efbe969c.webp",
-    "static/media/compstock.png": "/static/media/compstock.b3171a5f1dd98cca4456.png",
-    "static/media/github.png": "/static/media/github.82c34cdbabb4f2be17ef.png",
-    "index.html": "/index.html",
-    "main.df171f9e.css.map": "/static/css/main.df171f9e.css.map",
-    "main.2d8a69b2.js.map": "/static/js/main.2d8a69b2.js.map"
+    "main.css": "/Personal-Website/static/css/main.df171f9e.css",
+    "main.js": "/Personal-Website/static/js/main.6b54a0e5.js",
+    "static/media/myself.webp": "/Personal-Website/static/media/myself.bc292124edbb5e524637.webp",
+    "static/media/Duffy-and-I.webp": "/Personal-Website/static/media/Duffy-and-I.d6371ee46936efbe969c.webp",
+    "static/media/compstock.png": "/Personal-Website/static/media/compstock.b3171a5f1dd98cca4456.png",
+    "static/media/github.png": "/Personal-Website/static/media/github.82c34cdbabb4f2be17ef.png",
+    "index.html": "/Personal-Website/index.html",
+    "main.df171f9e.css.map": "/Personal-Website/static/css/main.df171f9e.css.map",
+    "main.6b54a0e5.js.map": "/Personal-Website/static/js/main.6b54a0e5.js.map"
   },
   "entrypoints": [
     "static/css/main.df171f9e.css",
-    "static/js/main.2d8a69b2.js"
+    "static/js/main.6b54a0e5.js"
   ]
 }
