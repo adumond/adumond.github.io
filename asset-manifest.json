@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/adumond.github.io/static/css/main.df171f9e.css",
-    "main.js": "/adumond.github.io/static/js/main.c57011c1.js",
+    "main.css": "/adumond.github.io/static/css/main.23f42295.css",
+    "main.js": "/adumond.github.io/static/js/main.7abd35c0.js",
     "static/media/myself.webp": "/adumond.github.io/static/media/myself.bc292124edbb5e524637.webp",
     "static/media/Duffy-and-I.webp": "/adumond.github.io/static/media/Duffy-and-I.d6371ee46936efbe969c.webp",
     "static/media/compstock.png": "/adumond.github.io/static/media/compstock.b3171a5f1dd98cca4456.png",
     "static/media/github.png": "/adumond.github.io/static/media/github.82c34cdbabb4f2be17ef.png",
     "index.html": "/adumond.github.io/index.html",
-    "main.df171f9e.css.map": "/adumond.github.io/static/css/main.df171f9e.css.map",
-    "main.c57011c1.js.map": "/adumond.github.io/static/js/main.c57011c1.js.map"
+    "main.23f42295.css.map": "/adumond.github.io/static/css/main.23f42295.css.map",
+    "main.7abd35c0.js.map": "/adumond.github.io/static/js/main.7abd35c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.df171f9e.css",
-    "static/js/main.c57011c1.js"
+    "static/css/main.23f42295.css",
+    "static/js/main.7abd35c0.js"
   ]
 }
