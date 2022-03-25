@@ -3,78 +3,61 @@
 .contact {
   background-color: white;
   display: flex;
-
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
   @include mobile {
-    flex-direction: column;
+    padding: auto;
   }
+  div {
+    padding: 5px;
 
-  .left {
-    flex: 1;
-    overflow: hidden;
-
-    img {
-      height: 100%;
+    label {
+      color: $mainColor;
+      font-size: large;
+      font-weight: 600;
+      vertical-align: top;
+      width: 50%;
+    }
+    input {
+      width: 100%;
+    }
+    textarea {
+      width: 100%;
     }
   }
-  .right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    h2 {
-      font-size: 30px;
+}
+button {
+  padding: 0.3em 1.2em;
+  display: block;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  color: $mainColor;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  background: linear-gradient(-45deg, #b2dcf0, #ecc5d4, #a0c0f1, #ec9292);
+  background-size: 200% 200%;
+  transition: all 1s ease;
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
     }
-
-    form {
-      width: 70%;
-      height: 70%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-
-      input {
-        width: 300px;
-        height: 30px;
-        font-size: 14px;
-
-        @include mobile {
-          width: 200px;
-          height: 20px;
-        }
-      }
-
-      textarea {
-        width: 300px;
-        height: 200px;
-        font-size: 14px;
-
-        @include mobile {
-          width: 200px;
-          height: 100px;
-        }
-      }
-
-      button {
-        width: 150px;
-        height: 30px;
-        color: white;
-        background-color: crimson;
-        border: none;
-        border-radius: 10px;
-        font-weight: 500;
-        cursor: pointer;
-
-        &:focus {
-          outline: none;
-        }
-      }
-
-      span {
-        color: green;
-      }
+    50% {
+      background-position: 100% 50%;
     }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+button:hover {
+  border-color: rgba(255, 255, 255, 1);
+}
+@media all and (max-width: 30em) {
+  button {
+    display: block;
+    margin: 0.2em auto;
   }
 }
